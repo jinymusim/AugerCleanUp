@@ -26,3 +26,7 @@ If not installed, install these python packages: **ipykernel, pandas, scipy, num
 If possible try to install **healpy**, but it may not work (As consequence **anisotropy.ipynb** won't work)  
 If on Windows Machine in function AugerLoad, `replace os.path.join(fdir,file)` with `Path(fdir).joinpath(file).as_posix()`
 and add `from pathlib import Path` to the top of the cell.
+
+## Citation
+
+Pierre Auger Collaboration, Auger Open Data release 2021, DOI:10.5281/zenodo.4487612
