@@ -1,0 +1,8 @@
+ipykernel
+pandas
+scipy
+numpy
+matplotlib
+astropy
+ipywidgets
+#healpy
