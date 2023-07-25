@@ -23,7 +23,7 @@ In https://opendata.auger.org/analysis.php Downlad Notebooks and necessary Dataf
 Place the raw .zip files to your Git Archive  
 Create new file .gitignore and write *.zip to it so the data is not pushed to Git (TOO BIG!)  
 If not installed, install these python packages: **ipykernel, pandas, scipy, numpy, matplotlib, astropy, ipywidgets**  
-If possible try to install **healpy**, but it may not work (As consequence **anisotropy.ipynb** won't work)  
+If possible try to install **healpy** (Currently not possible on Windows, As consequence **anisotropy.ipynb** won't work)  
 If on Windows Machine in function AugerLoad, `replace os.path.join(fdir,file)` with `Path(fdir).joinpath(file).as_posix()`
 and add `from pathlib import Path` to the top of the cell.
 
