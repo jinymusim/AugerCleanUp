@@ -5,4 +5,5 @@ numpy
 matplotlib
 astropy
 ipywidgets
+ducc0
 #healpy
